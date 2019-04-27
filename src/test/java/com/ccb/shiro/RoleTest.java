@@ -29,5 +29,6 @@ public class RoleTest {
         currentUser.checkRole("role1");
         currentUser.checkRoles(Arrays.asList("role1","role2","role3"));
         currentUser.logout();
+
     }
 }
